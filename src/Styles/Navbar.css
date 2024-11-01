@@ -1,0 +1,50 @@
+
+.sidbar-section{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-first{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+}
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.day{
+    padding: 10px 26px;
+    background-color: #DC0735;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 11px;
+}
+
+.hamburger-icon{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 992px){
+    .hamburger-icon{
+        display: block;
+    }
+    .day{
+        display: none;
+    }
+    .nav-content{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .hamburger-icon{
+        display: none;
+    }
+}
+
+
+

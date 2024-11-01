@@ -1,0 +1,132 @@
+.hexnode-img {
+    height: 120px;
+    width: 120px;
+}
+
+.first-card,
+.second-card,
+.third-card,
+.fourth-card {
+    text-align: left;
+    padding: 30px 30px;
+    border: 1px solid #D7D7D7;
+}
+.first-card h3,
+.second-card h3,
+.third-card h3,
+.fourth-card h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+.first-card p,
+.second-card p,
+.third-card p,
+.fourth-card p{
+    
+    font-size: 18px;
+}
+.way-set{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.unified{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.way-icons {
+   
+    background-color: #F8FAFF;
+    color: #3371ED;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .hexnode-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .first-card,
+    .third-card{
+        margin-bottom: 3rem;
+    }
+    .reason-title{
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .reason-title{
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .first-card {
+       width: 70%;
+    }
+
+    .second-card {
+        width: 70%;
+    }
+
+    .third-card {
+       width: 70%;
+    }
+
+    .fourth-card {
+       width: 70%;
+    }
+
+    .card-section-one {
+        display: flex;
+        justify-content: left;
+    }
+
+    .card-section-two {
+        display: flex;
+        justify-content: right;
+    }
+
+    .card-section-three {
+        display: flex;
+        justify-content: left;
+    }
+
+    .card-section-four {
+        display: flex;
+        justify-content: right;
+    }
+    .hexnode-img {
+        display: block;
+    }
+    /* .unified {
+        padding-left: 2rem;
+    } */
+    .unified h3{
+        text-align: left;
+    }
+    .unified img{
+        margin-bottom: 13px;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .unified {
+        padding-left: 0rem;
+        white-space: nowrap;
+    }
+    .automation h3{
+        white-space: nowrap;
+    }
+    .unified img{
+        margin-bottom: 0px;
+    }
+}
+

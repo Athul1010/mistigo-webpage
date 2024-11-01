@@ -1,0 +1,51 @@
+.dashed-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dashed-border-bottom-left {
+    width: 150px; 
+    height: 150px;
+    border-radius: 0 0 0 15px; 
+    padding: 10px;
+    background: 
+        linear-gradient(90deg, black 50%, transparent 50%) 0 100% / 10px 2px repeat-x, /* Bottom dashed line */
+        linear-gradient(0deg, black 50%, transparent 50%) 0 0 / 2px 10px repeat-y; /* Left dashed line */
+    animation: dash-bottom-left 2s linear infinite;
+}
+
+
+@keyframes dash-bottom-left {
+    0% {
+        background-position: 0 100%, 0 0;
+    }
+    100% {
+        background-position: 100% 100%, 0 100%;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    .dashed-box-container{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .dashed-box-container{
+        position: relative;
+        display: block;
+    }
+    .dashed-border-bottom-left {
+        position: absolute;
+        bottom: -9rem;
+        right: 25rem;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .dashed-border-bottom-left {
+        bottom: -9rem;
+        right: 29rem;
+    }
+}

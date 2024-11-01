@@ -1,0 +1,51 @@
+.dashed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dashed-border {
+    width: 150px; /* Adjust for the desired length of the "L" shape */
+    height: 150px;
+    border-radius: 15px 0 0 0; /* Rounded top-left corner */
+    padding: 10px;
+    background: 
+        linear-gradient(90deg, black 50%, transparent 50%) 0 0 / 10px 2px repeat-x, /* Top dashed line */
+        linear-gradient(0deg, black 50%, transparent 50%) 0 0 / 2px 10px repeat-y; /* Left dashed line */
+    animation: dash 2s linear infinite;
+}
+
+/* Animation for moving dashed effect in specific directions */
+@keyframes dash {
+    0% {
+        background-position: 0 0, 0 100%;
+    }
+    100% {
+        background-position: 100% 0, 0 0;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    .dashed-container{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .dashed-container{
+        position: relative;
+        display: block;
+    }
+    .dashed-border {
+        position: absolute;
+        top: -9rem;
+        right: 25rem;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .dashed-border {
+        top: -9rem;
+        right: 29rem;
+    }
+}

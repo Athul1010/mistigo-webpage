@@ -1,0 +1,15 @@
+/* .platform-title{
+    border-bottom: 1px solid #D2D2D2;
+    padding: 30px 0px;
+}
+@media only screen and (max-width: 1200px) {
+    
+} */
+.platform-title {
+    border-bottom: 1px solid #D2D2D2;
+  }
+  
+  .platform-title.no-border {
+    border-bottom: none;
+  }
+  
