@@ -10,6 +10,7 @@
     text-align: left;
     padding: 30px 30px;
     border: 1px solid #D7D7D7;
+    border-radius: 8px;
 }
 .first-card h3,
 .second-card h3,
@@ -43,7 +44,14 @@
     background-color: #F8FAFF;
     color: #3371ED;
 }
+.reason-title{
+    font-weight: 700;
+}
 
+.reason-secton{
+    padding: 80px 0px;
+    background-color: #F7F7F7;
+}
 
 @media only screen and (max-width: 1280px) {
     .hexnode-img {
@@ -58,14 +66,14 @@
     }
     .reason-title{
         font-size: 30px;
-        padding: 20px 0px;
+        padding-bottom: 20px;
     }
 }
 
 @media only screen and (min-width: 992px){
     .reason-title{
         font-size: 40px;
-        padding: 20px 0px;
+        padding-bottom: 20px;
     }
 }
 @media only screen and (min-width: 1280px) {

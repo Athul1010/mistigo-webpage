@@ -48,35 +48,61 @@ const Platform = () => {
   };
 
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid devices'>
       <div className='container'>
+        <h1 className='device-title'>Multi-platform Endpoint Management</h1>
+        <p className='device-paragraph'>Devices of varying platforms? Hexnode thrives in a diverse environment.</p>
         <div className='row'>
           {/* Image Section */}
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             {platforms.map(platform => (
               platform.name === selectedPlatform && (
                 <div key={platform.name}>
-                  <img src={platform.image} alt='' className={`img-fluid platform-img ${platform.name === "FireOS" ? "fireOS-img" : ""}`} />
+                  <img src={platform.image} alt='' className="img-fluid" />
+                  {/* <img src={platform.image} alt='' className={`img-fluid platform-img ${platform.name === "FireOS" ? "fireOS-img" : ""}`} /> */}
                 </div>
               )
             ))}
           </div>
 
           {/* Text Section */}
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 text-section">
             {platforms.map(platform => (
               <div key={platform.name}>
-                {/* Render the heading only if it’s not the selected platform */}
+                
                 {platform.name !== selectedPlatform && (
                   <h1 
-                    className='platform-title' 
+                    className={`platform-title ${platform.name === selectedPlatform ? 'no-border' : ''}`}
                     onClick={() => handlePlatformClick(platform.name)}
                     style={{ cursor: 'pointer' }}
                   >
                     {platform.name}
                   </h1>
                 )}
-                {/* Show the card only for the selected platform */}
+                
+                {platform.name === selectedPlatform && (
+                  <div className="card card-container">
+                    <div className="card-body">
+                      <h3 className='cards-titles'>{platform.name}</h3>
+                      <p className='device-des'>{platform.description}</p>
+                      <p className='try'>Try Hexnode on your endpoints</p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
+            {/* {platforms.map(platform => (
+              <div key={platform.name}>
+               
+                <h1
+                  className={`platform-title ${platform.name === selectedPlatform ? 'no-border' : ''}`}
+                  onClick={() => handlePlatformClick(platform.name)}
+                  style={{ cursor: 'pointer' }}
+                >
+                  {platform.name}
+                </h1>
+
+               
                 {platform.name === selectedPlatform && (
                   <div className="card">
                     <div className="card-body">
@@ -87,7 +113,7 @@ const Platform = () => {
                   </div>
                 )}
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>

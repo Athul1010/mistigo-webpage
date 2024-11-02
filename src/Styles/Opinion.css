@@ -1,0 +1,110 @@
+/* .swiper {
+    width: 100%;
+    height: 100%;
+} */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.first-one {
+    display: flex;
+    
+}
+.opinion-section{
+    padding: 80px 0px;
+}
+.reason-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px; /* Adjust icon size inside the arrow */
+  color: #3F4551;
+  background-color: #F7F7F7;
+  padding: 18px 18px;
+  border-radius: 15px;
+}
+.works{
+    background-color: #F7F7F7;
+}
+.works h4 {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 2rem;
+}
+.auther h4 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 1rem;
+}
+.auther{
+    background-color: #EAEBEB;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .first-one{
+        flex-direction: column;
+    }
+    .swiper-slide{
+        padding: 80px 10px;
+    }
+    
+} */
+ @media only screen and (max-width: 1024px) {
+    .first-one {
+        flex-direction: column;
+    }
+
+    .swiper-slide {
+        padding: 0px 10px;
+    }
+    .swiper {
+        padding-bottom: 80px; /* Add space below the slider for arrows */
+    }
+
+    /* Position navigation arrows below the slider */
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: absolute;
+        bottom: 10px; /* Position below the slider */
+        transform: translateX(-50%);
+        top: auto; /* Remove top positioning */
+    }
+    .swiper-button-prev {
+        left: 40%;
+        margin-right: 20px; /* Add spacing between the buttons */
+    }
+    .swiper-button-next {
+        left: 55%;
+        margin-left: 20px; /* Add spacing between the buttons */
+    }
+}
+
+@media only screen and (min-width: 1400px){
+.works h4{
+    margin: 0 auto;
+    width: 85%;
+    text-align: left;
+}
+
+}

@@ -1,15 +1,94 @@
-/* .platform-title{
-    border-bottom: 1px solid #D2D2D2;
-    padding: 30px 0px;
+.devices {
+  padding: 80px 0px;
+  background-color: #F7F7F7;
 }
-@media only screen and (max-width: 1200px) {
-    
-} */
+
+.device-title {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.device-paragraph {
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+.card-container{
+  background-color: #ffffff;
+}
+.cards-titles {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: left;
+}
+
+.device-des {
+  font-size: 18px;
+  text-align: left;
+}
+
+.try {
+  color: #DD0735;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 600;
+}
+
 .platform-title {
-    border-bottom: 1px solid #D2D2D2;
+  border-bottom: 1px solid #D2D2D2;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+  /* padding: 23px 20px; */
+}
+
+.platform-title.no-border {
+  border-bottom: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .device-title {
+    font-size: 30px;
   }
-  
-  .platform-title.no-border {
-    border-bottom: none;
+  .platform-title {
+    padding: 11px 20px;
   }
-  
+  .text-section{
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .device-title {
+    font-size: 30px;
+  }
+  .text-section{
+    margin-top: 20px;
+  }
+  .platform-title {
+    padding: 11px 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .device-title {
+    font-size: 40px;
+  }
+  .text-section{
+    padding: 0px 40px;
+    margin-top: 0px;
+  }
+  .platform-title {
+    padding: 3px 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .platform-title {
+    padding: 12px 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .platform-title {
+    padding: 21px 20px;
+  }
+}

@@ -5,6 +5,9 @@ import Navbar from './Components/Navbar';
 import Reason from './Components/Reason';
 import Platform from './Components/Platform';
 
+import Opinion from './Components/Opinion';
+import Companies from './Components/Companies';
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
       <Navbar/>
       <Reason/>
       <Platform/>
+      <Opinion/>
+      <Companies/>
     </div>
   );
 }
