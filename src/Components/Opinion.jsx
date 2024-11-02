@@ -12,15 +12,15 @@ const Opinion = () => {
   return (
     <div className='container opinion-section'>
 
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} modules={[Navigation]} className="opinionSwiper">
         <SwiperSlide>
 
           <div className='first-one'>
             <div>
-              <img src={justin} alt="" className='img-fluid custom-img' />
+              <img src={justin} alt="" className='img-fluid custom-img rouded-left' />
             </div>
 
-            <div className='reason-section'>
+            <div className='reason-section rounded'>
               <div className='works'>
                 <h4>"Hexnode is of great value. Works great with Android and iOS!"</h4>
               </div>
@@ -60,8 +60,8 @@ const Opinion = () => {
               </div>
               <div className='auther'>
                 <h4>Dalibor Kruljac</h4>
-                <span>KAMELEYA LTD</span>
-                <p>East Troy Community School District</p>
+                {/* <span>KAMELEYA LTD</span> */}
+                <p>KAMELEYA LTD</p>
               </div>
             </div>
           </div>
@@ -94,8 +94,8 @@ const Opinion = () => {
               </div>
               <div className='auther'>
                 <h4>Chris Robinson</h4>
-                <span>Executive Account Manager, NCS</span>
-                <p>East Troy Community School District</p>
+                <p>Executive Account Manager, NCS</p>
+                {/* <p>East Troy Community School District</p> */}
               </div>
             </div>
           </div>

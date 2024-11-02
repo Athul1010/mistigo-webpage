@@ -48,29 +48,29 @@
     width: 100%; 
     text-align: left;
     padding: 15px 0; 
-    border-top: 1px solid black;
+    border-top: 1px solid #D7D7D7;
     
 }
 .types2 {
     width: 100%; 
     text-align: left; 
     padding: 15px 0;
-    border-top: 1px solid black;
+    border-top: 1px solid #D7D7D7;
     
 }
 .types3 {
     width: 100%; 
     text-align: left; 
     padding: 15px 0; 
-    border-top: 1px solid black;
+    border-top: 1px solid #D7D7D7;
    
 }
 .types4 {
     width: 100%; 
     text-align: left; 
     padding: 15px 0; 
-    border-top: 1px solid black;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
 }
 
 .days {

@@ -1,0 +1,35 @@
+.try-hexnode{
+background-color: #020A19;
+}
+.get-hexnode button{
+    background-color: #DD0735;
+    font-size: 17px;
+    border-radius: 3px;
+    border: none;
+    padding: 12px 50px;
+    color: #ffffff;
+}
+.get-hexnode h1{
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+.try-hexnode{
+    padding: 50px 0px;
+}
+@media only screen and (max-width: 600px){
+    .get-hexnode h1{
+        font-size: 30px;
+    } 
+    .get-hexnode button{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .get-hexnode h1{
+        font-size: 42px;
+        width: 80%;
+    }
+}

@@ -1,9 +1,10 @@
-/* .swiper {
+/* Scoped styles for the Opinion Swiper component */
+.opinionSwiper {
     width: 100%;
     height: 100%;
-} */
+}
 
-.swiper-slide {
+.opinionSwiper .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -13,98 +14,137 @@
     align-items: center;
 }
 
-.swiper-slide img {
+.opinionSwiper .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* border-radius: 8px; */
 }
 
-.first-one {
+.opinionSwiper .first-one {
     display: flex;
-    
 }
-.opinion-section{
+
+.opinion-section {
     padding: 80px 0px;
 }
-.reason-section {
+
+.opinionSwiper .reason-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #F7F7F7;
+    /* border-radius: 10px; */
 }
 
-
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  font-size: 20px; /* Adjust icon size inside the arrow */
-  color: #3F4551;
-  background-color: #F7F7F7;
-  padding: 18px 18px;
-  border-radius: 15px;
-}
-.works{
+.opinionSwiper .swiper-button-next::after,
+.opinionSwiper .swiper-button-prev::after {
+    font-size: 20px; /* Adjust icon size inside the arrow */
+    color: #3F4551;
     background-color: #F7F7F7;
+    padding: 18px 18px;
+    border-radius: 15px;
 }
-.works h4 {
+
+.opinionSwiper .works {
+    /* background-color: #F7F7F7; */
+}
+
+.opinionSwiper .works h4 {
     font-weight: 700;
     font-size: 24px;
     padding-top: 2rem;
 }
-.auther h4 {
+
+.opinionSwiper .auther h4 {
     font-weight: 700;
     font-size: 20px;
     padding-top: 1rem;
 }
-.auther{
+
+.opinionSwiper .auther {
     background-color: #EAEBEB;
+    border-bottom-right-radius: 10px;
 }
 
-/* @media only screen and (max-width: 600px) {
-    .first-one{
-        flex-direction: column;
+/* Responsive Styles */
+
+@media only screen and (max-width: 1024px) {
+    .opinionSwiper .works {
+        padding: 0px 20px;
     }
-    .swiper-slide{
-        padding: 80px 10px;
-    }
-    
-} */
- @media only screen and (max-width: 1024px) {
-    .first-one {
+    .opinionSwiper .first-one {
         flex-direction: column;
     }
 
-    .swiper-slide {
-        padding: 0px 10px;
+    .opinionSwiper .swiper-slide {
+        padding: 0px 280px;
     }
-    .swiper {
+
+    .opinionSwiper {
         padding-bottom: 80px; /* Add space below the slider for arrows */
     }
 
     /* Position navigation arrows below the slider */
-    .swiper-button-next,
-    .swiper-button-prev {
+    .opinionSwiper .swiper-button-next,
+    .opinionSwiper .swiper-button-prev {
         position: absolute;
         bottom: 10px; /* Position below the slider */
         transform: translateX(-50%);
         top: auto; /* Remove top positioning */
     }
-    .swiper-button-prev {
+    .opinionSwiper .swiper-button-prev {
         left: 40%;
         margin-right: 20px; /* Add spacing between the buttons */
     }
-    .swiper-button-next {
+    .opinionSwiper .swiper-button-next {
         left: 55%;
         margin-left: 20px; /* Add spacing between the buttons */
     }
 }
 
-@media only screen and (min-width: 1400px){
-.works h4{
-    margin: 0 auto;
-    width: 85%;
-    text-align: left;
+@media only screen and (max-width: 992px) {
+    .opinionSwiper .swiper-slide {
+        padding: 0px 180px;
+    }
 }
 
+@media only screen and (max-width: 768px) {
+    .opinionSwiper .swiper-slide {
+        padding: 0px 80px;
+    }
+    .opinionSwiper .works h4 {
+        font-size: 20px;
+    }
+    .opinionSwiper .auther h4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .opinionSwiper .swiper-slide {
+        padding: 0px 35px;
+    }
+
+    .opinionSwiper .works h4 {
+        font-size: 16px;
+    }
+    .opinionSwiper .auther h4 {
+        font-size: 14px;
+    }
+    .opinionSwiper .auther span,
+    .opinionSwiper .auther p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .opinionSwiper .works h4 {
+        margin: 0 auto;
+        width: 85%;
+        text-align: left;
+    }
 }

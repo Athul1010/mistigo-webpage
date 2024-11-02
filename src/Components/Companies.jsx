@@ -26,7 +26,7 @@ const Companies = () => {
     // };
     
     return (
-        <div className='container'>
+        <div className='container company-section'>
             <Swiper
                 spaceBetween={20} // Adjust space between images
                 slidesPerView={7} // Show 7 images at once
@@ -43,7 +43,7 @@ const Companies = () => {
                 breakpoints={{
                     // When window width is <= 600px
                     0: {
-                        slidesPerView: 3, // Show 3 images
+                        slidesPerView: 2, // Show 3 images
                     },
                     // When window width is >= 600px and <= 1200px
                     600: {

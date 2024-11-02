@@ -7,6 +7,8 @@ import Platform from './Components/Platform';
 
 import Opinion from './Components/Opinion';
 import Companies from './Components/Companies';
+import TryHexnode from './Components/TryHexnode';
+import Copyright from './Components/Copyright';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Platform/>
       <Opinion/>
       <Companies/>
+      <TryHexnode/>
+      <Copyright/>
     </div>
   );
 }
