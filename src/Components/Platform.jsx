@@ -44,7 +44,7 @@ const Platform = () => {
   const [selectedPlatform, setSelectedPlatform] = useState("Android");
 
   return (
-    <div className='container-fluid devices'>
+    <div className='container-fluid devices' id='platform_container'>
       <div className='container'>
         <h1 className='device-title'>Multi-platform Endpoint Management</h1>
         <p className='device-paragraph'>Devices of varying platforms? Hexnode thrives in a diverse environment.</p>

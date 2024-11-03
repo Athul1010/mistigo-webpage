@@ -1,5 +1,6 @@
 import React from 'react';
-import hexnode from '../assets/hexnode.webp';
+// import hexnode from '../assets/hexnode-logo.png'
+import hexnodeLogo from '../assets/hexnode-logo.png'
 import '../Styles/Reason.css';
 import DotsTright from './DotsTright';
 import DotsBright from './DotsBright';
@@ -12,7 +13,7 @@ import list from '../assets/list.png'
 
 const Reason = () => {
     return (
-        <div className='reason-secton'>
+        <div className='reason-secton' id='reason_container'>
             <div className="container">
                 <h1 className='reason-title'>Why Hexnode?</h1>
                 <div className="row justify-content-center">
@@ -43,7 +44,7 @@ const Reason = () => {
                     <DotsTleft className='dotTleft' />
                     <DotsTright className='dotTright' />
                     <div className="col-12 d-flex justify-content-center">
-                        <img className='hexnode-img' src={hexnode} alt="Hexnode Logo" />
+                        <img className='hexnode-img' src={hexnodeLogo} alt="Hexnode Logo" />
                     </div>
                     <DotsBright className='dotBright' />
                     <DotsBleft className='dotBleft' />

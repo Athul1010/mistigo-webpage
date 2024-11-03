@@ -9,6 +9,9 @@
     .manage-content h2{
         font-size: 24px;
     }
+    .manage-content{
+        padding: 0px 18px;
+    }
 }
 @media only screen and (min-width: 600px){
     .manage-title{

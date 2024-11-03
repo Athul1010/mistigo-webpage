@@ -11,12 +11,15 @@ import TryHexnode from './Components/TryHexnode';
 import Copyright from './Components/Copyright';
 import Management from './Components/Management';
 import Achievement from './Components/Achievement';
+import Home from './Components/Home';
+import BackToTopButton from './Components/BackToTopButton';
 
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Home/>
       <Achievement/>
       <Reason/>
       <Management/>
@@ -24,6 +27,7 @@ function App() {
       <Opinion/>
       <Companies/>
       <TryHexnode/>
+      <BackToTopButton/>
       <Copyright/>
       </div>
   );

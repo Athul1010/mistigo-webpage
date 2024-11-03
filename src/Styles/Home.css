@@ -1,0 +1,249 @@
+.home {
+    padding: 80px 0px;
+    margin-top: 4rem;
+    background-color: #020A19;
+}
+/* .check_icon{
+    color: red;
+    background-color: green;
+} */
+.header-search input{
+    font-size: 18px; 
+    line-height: 24px; 
+    width: 50%;
+    height: 53px; 
+    border-radius: 3px; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    box-shadow: none; 
+    /* border: none; */
+    transition: all 0.3s ease-in-out;
+}
+.header-search input::placeholder {
+    color: #c6c6c6; 
+}
+.header-search button{
+    padding: 8px 26px;
+    background-color: #DC0735;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    margin-top: 2px;
+}
+
+.header-search input {
+    color: inherit; 
+    line-height: 21px; 
+}
+.check {
+    left: 2%;
+    top: 50%;
+    transform: translate(-2%, -50%);
+    color: #FFFFFF;
+}
+.Unified h1{
+    color: #FFFFFF;
+}
+.Unified p{
+    font-size: 18px;
+    color: #C0C2C5;
+}
+.Unified span{
+    color: #737880;
+}
+
+
+.check_icon_one{
+    background-color: #FFFFFF;
+    color: #DC982F;
+    border-radius: 50%;
+    padding: 5px;
+}
+.check_icon_two{
+    background-color: #FFFFFF;
+    color: #47AFC5;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* .password-policy {
+    
+    background-color: #FCD598;
+    border-radius: 21px;
+    overflow: hidden;
+} */
+.password-policy {
+    background: linear-gradient(to right, #FFFFFF 50%, #FCD598 50%);
+    border-radius: 21px;
+    overflow: hidden;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.7s ease;
+}
+
+.password-policy:hover,
+.tvos-active:hover,
+.device-enrolled:hover  {
+    background-position: 0 0;
+}
+
+.tvos-active {
+    /* background-color: #C3E1E7; */
+    background: linear-gradient(to right, #FFFFFF 50%, #C3E1E7 50%);
+    border-radius: 21px;
+    overflow: hidden;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.7s ease;
+}
+
+.device-enrolled {
+    /* background-color: #BCDCBE; */
+    background: linear-gradient(to right, #FFFFFF 50%, #BCDCBE 50%);
+    border-radius: 21px;
+    overflow: hidden;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.7s ease;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-search{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header-search input{
+        width: 100%;
+    }
+    .password-policy {
+        padding: 4px 20px 4px 29px;
+        top: 53%;
+        left: 7%;
+    }
+
+    .tvos-active {
+        padding: 4px 20px 4px 29px;
+        top: 61%;
+        right: 4%;
+    }
+
+    .device-enrolled {
+        padding: 4px 20px 4px 29px;
+        top: 82%;
+        right: 25%;
+    }
+
+    .check {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .password-policy {
+        padding: 5px 10px 5px 25px;
+        top: 62%;
+        left: 7%;
+        font-size: 11px;
+    }
+
+    .tvos-active {
+        font-size: 11px;
+        top: 71%;
+    }
+
+    .device-enrolled {
+        padding: 5px 10px 5px 25px;
+        font-size: 11px;
+    }
+
+    .check {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .password-policy {
+        padding: 4px 20px 4px 29px;
+        margin-top: 7rem;
+        margin-left: 8px;
+    }
+
+    .tvos-active {
+        padding: 4px 20px 4px 29px;
+        margin-top: 11rem;
+        margin-left: 22rem;
+    }
+    .device-enrolled {
+        padding: 4px 20px 4px 29px;
+        margin-top: -5rem;
+        margin-left: 17rem;
+    }
+
+    .check {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .password-policy {
+        margin-left: 5rem;
+        padding: 9px 20px 9px 32px;
+    }
+
+    .tvos-active {
+        margin-left: 29rem;
+        padding: 9px 20px 9px 32px;
+    }
+    .device-enrolled{
+        padding: 9px 20px 9px 32px;
+        margin-left: 20rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .password-policy {
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .tvos-active {
+        margin-left: 280px;
+        margin-top: 9rem;
+    }
+    .device-enrolled{
+        margin-left: 12rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .password-policy {
+        margin-top: 6rem;
+        margin-left: 2rem;
+    }
+
+    .tvos-active {
+        margin-left: 24rem;
+        margin-top: 10rem;
+    }
+    .device-enrolled{
+        margin-left: 15rem;
+    }
+    .Unified h1{
+        font-size: 42px;
+    }
+    
+}
+
+@media only screen and (min-width: 1400px) {
+    .password-policy {
+        margin-left: 4rem;
+    }
+
+    .tvos-active {
+        margin-left: 27rem;
+    }
+    .device-enrolled{
+        margin-left: 19rem;
+    }
+}

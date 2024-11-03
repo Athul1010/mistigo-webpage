@@ -23,6 +23,15 @@ const Navbars = () => {
         };
     }, []);
 
+
+    // Function to scroll to a section by its ID
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <div className={`container-fluid navbar-container ${isScrolled ? 'scrolled' : ''}`}>
             <div className='container sidbar-section'>
@@ -31,10 +40,10 @@ const Navbars = () => {
                         <h1>hexnode</h1>
                     </div>
                     <div className='nav-content'>
-                        <span>Why Hexnode</span>
-                        <span>Features</span>
-                        <span>Platforms</span>
-                        <span>Customers</span>
+                        <span onClick={() => scrollToSection("reason_container")}>Why Hexnode</span>
+                        <span onClick={() => scrollToSection("management_container")}>Features</span>
+                        <span onClick={() => scrollToSection("platform_container")}>Platforms</span>
+                        <span onClick={() => scrollToSection("reason_container")}>Customers</span>
                     </div>
                 </div>
                 <div>

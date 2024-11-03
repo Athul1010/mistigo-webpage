@@ -11,7 +11,7 @@ import chris from '../assets/chris-robinson.png'
 const Opinion = () => {
   return (
     <div className='container opinion-section'>
-
+        <h1 className='mb-5 fw-bold'>What our customers say</h1>
       <Swiper navigation={true} modules={[Navigation]} className="opinionSwiper">
         <SwiperSlide>
 
