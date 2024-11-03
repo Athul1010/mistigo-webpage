@@ -1,0 +1,74 @@
+.acheived {
+    background-color: #1A1C2B;
+    color: #73727D;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.acheived img {
+    height: 26px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .idc,
+    .forrester {
+        text-align: center;
+        padding: 40px 0px;
+    }
+    .gartner {
+        text-align: center;
+        
+    }
+    /* .gartner{
+        padding-top: 40px;
+    } */
+    .one,
+    .two{
+        display: block;
+        height: 1.5px;
+        width: 20%;
+        background-color: #484955;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .idc,
+    .forrester {
+        text-align: center;
+        padding: 40px 0px;
+    }
+    .gartner {
+        text-align: center;
+    }
+    .one,
+    .two{
+        display: block;
+        height: 1.5px;
+        width: 20%;
+        background-color: #484955;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .one,
+    .two{
+        display: none;
+    }
+    .idc,
+    .forrester {
+        text-align: left;
+        padding: 0px 20px;
+    }
+    .gartner {
+        text-align: left;
+        border-right: 1px solid #484955;
+        border-left: 1px solid #484955;
+        
+        
+    }
+}
+@media only screen and (min-width: 992px){
+    
+}

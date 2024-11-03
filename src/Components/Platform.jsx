@@ -66,7 +66,7 @@ const Platform = () => {
               <div key={platform.name}>
                 {platform.name !== selectedPlatform && (
                   <h1
-                    className={`platform-title mb-0 ${index + 1 < platforms.length && platforms[index + 1].name === selectedPlatform ? 'border-bottom-0' : ''
+                    className={`platform-title ${index + 1 < platforms.length && platforms[index + 1].name === selectedPlatform ? 'border-bottom-0' : ''
                       }`}
                     onClick={() => setSelectedPlatform(platform.name)}
                     style={{ cursor: 'pointer' }}
