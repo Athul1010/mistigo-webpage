@@ -6,7 +6,7 @@ import forrester from '../assets/forrester.png'
 
 const Achievement = () => {
     return (
-        <div className='container-fluid acheived'>
+        <div className='container-fluid acheived' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 idc">

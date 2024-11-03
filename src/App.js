@@ -13,9 +13,16 @@ import Management from './Components/Management';
 import Achievement from './Components/Achievement';
 import Home from './Components/Home';
 import BackToTopButton from './Components/BackToTopButton';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+    AOS.refresh(); // Refresh AOS on component update
+  }, []);
   return (
     <div className="App">
       <Navbar/>

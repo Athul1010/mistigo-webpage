@@ -1,5 +1,6 @@
 .back-to-top-btn{
     position: fixed;
+    z-index: 1;
     bottom: 120px;
     right: 50px;
     height: 60px;

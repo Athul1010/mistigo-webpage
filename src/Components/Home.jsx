@@ -10,7 +10,7 @@ const Home = () => {
             <div className="container">
                 <div className="row align-items-center">
 
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 Unified text-center text-lg-start">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 Unified text-center text-lg-start" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <span className=''>Unified Endpoint Management</span>
                         <h1 className="mb-0 fw-bold">Gain control and visibility</h1>
                         <h1 className="fw-bold">over your endpoints</h1>
@@ -21,7 +21,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 text-center mt-4 mt-lg-0">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 text-center mt-4 mt-lg-0" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div className="password-policy position-absolute">
                             <span className='check d-flex position-absolute'><FaCheck className='check_icon_one'/></span>
                             <span>Password policy applied</span>

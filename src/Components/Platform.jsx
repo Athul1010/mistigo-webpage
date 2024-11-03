@@ -50,7 +50,7 @@ const Platform = () => {
         <p className='device-paragraph'>Devices of varying platforms? Hexnode thrives in a diverse environment.</p>
         <div className='row'>
           {/* Image Section */}
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             {platforms.map(platform => (
               platform.name === selectedPlatform && (
                 <div key={platform.name}>
@@ -61,7 +61,7 @@ const Platform = () => {
           </div>
 
           {/* Text Section */}
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 text-section">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 text-section" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
             {platforms.map((platform, index) => (
               <div key={platform.name}>
                 {platform.name !== selectedPlatform && (

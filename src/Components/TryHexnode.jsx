@@ -6,7 +6,7 @@ const TryHexnode = () => {
     <div className='container-fluid try-hexnode'>
         <div className='container'>
           <div className="row">
-            <div className="col-md-12 get-hexnode">
+            <div className="col-md-12 get-hexnode" data-aos="fade-down">
                 <h1>Get Hexnode UEM and start securing your endpoints</h1>
                 <button>TRY HEXNODE FOR FREE</button>
             </div>

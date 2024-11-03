@@ -37,7 +37,7 @@ const Navbars = () => {
             <div className='container sidbar-section'>
                 <div className='nav-first'>
                     <div>
-                        <h1>hexnode</h1>
+                        <h1 className='fw-bold'>hexnode</h1>
                     </div>
                     <div className='nav-content'>
                         <span onClick={() => scrollToSection("reason_container")}>Why Hexnode</span>

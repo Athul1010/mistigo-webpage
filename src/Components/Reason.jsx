@@ -17,7 +17,7 @@ const Reason = () => {
             <div className="container">
                 <h1 className='reason-title'>Why Hexnode?</h1>
                 <div className="row justify-content-center">
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
                         <div className='card-section-one'>
                             <div className="first-card">
                                 <div className='way-set'>
@@ -29,7 +29,7 @@ const Reason = () => {
                         </div>
                     </div>
     
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
                         <div className='card-section-two'>
                             <div className="second-card">
                                 
@@ -44,14 +44,14 @@ const Reason = () => {
                     <DotsTleft className='dotTleft' />
                     <DotsTright className='dotTright' />
                     <div className="col-12 d-flex justify-content-center">
-                        <img className='hexnode-img' src={hexnodeLogo} alt="Hexnode Logo" />
+                        <img className='hexnode-img' src={hexnodeLogo} alt="Hexnode Logo" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"/>
                     </div>
                     <DotsBright className='dotBright' />
                     <DotsBleft className='dotBleft' />
                 </div>
     
                 <div className="row justify-content-center mt-4">
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
                         <div className='card-section-three'>
                             <div className="third-card">
                                 <div className='automation'>
@@ -62,7 +62,7 @@ const Reason = () => {
                         </div>
                     </div>
     
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000"> 
                         <div className='card-section-four'>
                             <div className="fourth-card">
                                 <div className='unified'>
