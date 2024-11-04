@@ -1,4 +1,39 @@
+Mitsogo Website Project:-
 
+This project is a fully responsive website developed using React.js, JavaScript, CSS, and Bootstrap. The website features a responsive navbar, header section, features section, slider, automatic slider, customer opinions, and more. Additionally, I have implemented animations on scroll (AOS) and a "Scroll to Top" button for enhanced user experience.
+
+Technologies Used:-
+
+Frontend: React.js, JavaScript, CSS, Bootstrap
+Packages: React Icons, AOS (Animate on Scroll)
+
+Setup Instructions:-
+
+1.Clone the repository:
+2.git clone <repository-url>
+3.cd <project-directory>
+4.Install dependencies: Use the following command to install the required npm packages:
+
+In terminal:-
+5.npm install
+
+Run the project: Start the development server with:
+
+1.npm start
+Open your browser: Navigate to http://localhost:3000 to view the website.
+
+
+Bonus Features:
+
+AOS (Animate on Scroll): I integrated the AOS package to add engaging animations as users scroll down the page. This feature enhances the overall visual appeal and encourages interaction.
+Scroll to Top Button: Although this feature was not part of the original task, I implemented a "Scroll to Top" button to improve navigation, allowing users to easily return to the top of the page.
+
+
+During the development process, I encountered some challenges:
+
+Implementing animations and functionalities required careful planning and testing, which took some time to overcome.
+I faced difficulties in obtaining certain images from the task website's inspection tool, which led to some delays.
+Overall, this project was a rewarding challenge that enhanced my skills in web development, and I am proud of the final outcome.
 
 
 
