@@ -14,14 +14,10 @@ Setup Instructions:-
 1.Clone the repository:
 2.git clone <repository-url>
 3.cd <project-directory>
-4.Install dependencies: Use the following command to install the required npm packages:
+4.Install dependencies: Use the following command to install the required npm packages: npm install
 
-In terminal:-
-5.npm install
+5.Run the project: Start the development server with: npm start
 
-Run the project: Start the development server with:
-
-1.npm start
 Open your browser: Navigate to http://localhost:3000 to view the website.
 
 
