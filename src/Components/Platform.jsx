@@ -54,7 +54,7 @@ const Platform = () => {
             {platforms.map(platform => (
               platform.name === selectedPlatform && (
                 <div key={platform.name}>
-                  <img src={platform.image} alt={platform.name} className="img-fluid platform-imgs" id='img-one'/>
+                  <img src={platform.image} alt={platform.name} className="img-fluid platform-imgs" id='img-one' loading="lazy"/>
                 </div>
               )
             ))}
@@ -81,7 +81,7 @@ const Platform = () => {
                       {platforms.map(platform => (
                         platform.name === selectedPlatform && (
                           <div key={platform.name}>
-                            <img src={platform.image} alt={platform.name} className="img-fluid platform-imgs" id='img-two'/>
+                            <img src={platform.image} alt={platform.name} className="img-fluid platform-imgs" id='img-two' loading="lazy"/>
                           </div>
                         )
                       ))}
