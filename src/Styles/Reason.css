@@ -143,10 +143,24 @@
     .fourth-card h3 {
         font-size: 18px;
     }
-    .first-card p, .second-card p, .third-card p, .fourth-card p {
+
+    .first-card p,
+    .second-card p,
+    .third-card p,
+    .fourth-card p {
+
         font-size: 16px;
     }
 
+    .unified,
+    .way-set {
+        justify-content: left;
+    }
+
+    .unified img,
+    .way-set img {
+        height: 25px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
