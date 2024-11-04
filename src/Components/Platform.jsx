@@ -54,7 +54,7 @@ const Platform = () => {
             {platforms.map(platform => (
               platform.name === selectedPlatform && (
                 <div key={platform.name}>
-                  <img src={platform.image} alt={platform.name} className="img-fluid platform-imgs" />
+                  <img src={platform.image} alt={platform.name} className="img-fluid platform-imgs" id='img-one'/>
                 </div>
               )
             ))}
@@ -75,12 +75,26 @@ const Platform = () => {
                   </h1>
                 )}
                 {platform.name === selectedPlatform && (
-                  <div className="card mt-0 card-container">
-                    <div className="card-body">
-                      <h3 className='cards-titles'>{platform.name}</h3>
-                      <p className='device-des'>{platform.description}</p>
-                      <p className='try'>Try Hexnode on your endpoints</p>
+                  <div>
+
+                    <div className='mb-3'>
+                      {platforms.map(platform => (
+                        platform.name === selectedPlatform && (
+                          <div key={platform.name}>
+                            <img src={platform.image} alt={platform.name} className="img-fluid platform-imgs" id='img-two'/>
+                          </div>
+                        )
+                      ))}
                     </div>
+
+                    <div className="card mt-0 card-container">
+                      <div className="card-body">
+                        <h3 className='cards-titles'>{platform.name}</h3>
+                        <p className='device-des'>{platform.description}</p>
+                        <p className='try'>Try Hexnode on your endpoints</p>
+                      </div>
+                    </div>
+                    
                   </div>
                 )}
               </div>
