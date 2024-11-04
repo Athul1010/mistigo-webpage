@@ -26,7 +26,7 @@ const Companies = () => {
     // };
     
     return (
-        <div className='container company-section'>
+        <div className='container company-section' id='all-compony'>
             <Swiper
                 spaceBetween={20} // Adjust space between images
                 slidesPerView={7} // Show 7 images at once

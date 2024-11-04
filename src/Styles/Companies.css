@@ -60,3 +60,7 @@
 .company-section{
   padding-bottom: 80px;
 }
+#all-compony{
+  -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
