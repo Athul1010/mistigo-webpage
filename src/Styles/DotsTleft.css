@@ -6,13 +6,13 @@
 }
 
 .dashed-border-top-left {
-    width: 150px; /* Adjust for the desired length of the "L" shape */
+    width: 152px; /* Adjust for the desired length of the "L" shape */
     height: 150px;
     border-radius: 0 15px 0 0; /* Rounded top-right corner */
     padding: 10px;
     background: 
-        linear-gradient(90deg, black 50%, transparent 50%) 100% 0 / 10px 2px repeat-x, /* Top dashed line */
-        linear-gradient(0deg, black 50%, transparent 50%) 100% 0 / 2px 10px repeat-y; /* Right dashed line */
+        linear-gradient(90deg, #393F4A 50%, transparent 50%) 100% 0 / 10px 2px repeat-x, /* Top dashed line */
+        linear-gradient(0deg, #393F4A 50%, transparent 50%) 100% 0 / 2px 10px repeat-y; /* Right dashed line */
     animation: dash-top-left 2s linear infinite;
 }
 

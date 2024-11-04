@@ -11,8 +11,8 @@
     border-radius: 0 0 0 15px; 
     padding: 10px;
     background: 
-        linear-gradient(90deg, black 50%, transparent 50%) 0 100% / 10px 2px repeat-x, /* Bottom dashed line */
-        linear-gradient(0deg, black 50%, transparent 50%) 0 0 / 2px 10px repeat-y; /* Left dashed line */
+        linear-gradient(90deg, #393F4A 50%, transparent 50%) 0 100% / 10px 2px repeat-x, /* Bottom dashed line */
+        linear-gradient(0deg, #393F4A 50%, transparent 50%) 0 0 / 2px 10px repeat-y; /* Left dashed line */
     animation: dash-bottom-left 2s linear infinite;
 }
 

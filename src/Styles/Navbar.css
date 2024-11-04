@@ -47,6 +47,10 @@
     color: #FFFFFF;
     border: none;
     margin-top: 5px;
+    border-radius: 3px;
+}
+.day{
+    background-color: #bb022a;
 }
 
 .hamburger-icon {

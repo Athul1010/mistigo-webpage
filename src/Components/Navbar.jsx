@@ -37,13 +37,13 @@ const Navbars = () => {
             <div className='container sidbar-section'>
                 <div className='nav-first'>
                     <div>
-                        <h1 className='fw-bold'>hexnode</h1>
+                        <h2 className='fw-bold'>hexnode</h2>
                     </div>
                     <div className='nav-content'>
                         <span onClick={() => scrollToSection("reason_container")}>Why Hexnode</span>
                         <span onClick={() => scrollToSection("management_container")}>Features</span>
                         <span onClick={() => scrollToSection("platform_container")}>Platforms</span>
-                        <span onClick={() => scrollToSection("reason_container")}>Customers</span>
+                        <span onClick={() => scrollToSection("customers_container")}>Customers</span>
                     </div>
                 </div>
                 <div>

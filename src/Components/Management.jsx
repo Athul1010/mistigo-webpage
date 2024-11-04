@@ -9,7 +9,7 @@ import appManagement from '../assets/app-management.webp';
 
 const Management = () => {
     return (
-        <div className="container management" id='management_container' data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
+        <div className="container management" id='management_container' >
             <h1 className="manage-title fw-bold text-center mb-5">Powerful Endpoint Management, Built for the Devices You Choose</h1>
             <div className="row">
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">

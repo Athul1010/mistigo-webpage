@@ -1,6 +1,6 @@
 .home {
     padding: 80px 0px;
-    margin-top: 4rem;
+    margin-top: 3rem;
     background-color: #020A19;
 }
 /* .check_icon{
@@ -36,6 +36,9 @@
     color: inherit; 
     line-height: 21px; 
 }
+.header-search input:focus{
+    outline: none;
+}
 .check {
     left: 2%;
     top: 50%;
@@ -67,13 +70,8 @@
     padding: 5px;
 }
 
-/* .password-policy {
-    
-    background-color: #FCD598;
-    border-radius: 21px;
-    overflow: hidden;
-} */
 .password-policy {
+    cursor: pointer;
     background: linear-gradient(to right, #FFFFFF 50%, #FCD598 50%);
     border-radius: 21px;
     overflow: hidden;
@@ -89,7 +87,7 @@
 }
 
 .tvos-active {
-    /* background-color: #C3E1E7; */
+    cursor: pointer;
     background: linear-gradient(to right, #FFFFFF 50%, #C3E1E7 50%);
     border-radius: 21px;
     overflow: hidden;
@@ -99,7 +97,7 @@
 }
 
 .device-enrolled {
-    /* background-color: #BCDCBE; */
+    cursor: pointer;
     background: linear-gradient(to right, #FFFFFF 50%, #BCDCBE 50%);
     border-radius: 21px;
     overflow: hidden;

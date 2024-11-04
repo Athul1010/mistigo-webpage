@@ -8,6 +8,17 @@
 .acheived img {
     height: 26px;
 }
+.idc,
+.forrester,
+.gartner  {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.idc:hover,
+.forrester:hover,
+.gartner:hover {
+    transform: translateY(-10px); 
+}
 
 
 @media only screen and (max-width: 600px) {

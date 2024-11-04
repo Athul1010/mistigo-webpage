@@ -1,3 +1,44 @@
+.first-card span,
+.second-card span,
+.third-card span,
+.fourth-card span {
+    color: #DD0735;
+    font-size: 20px;
+    opacity: 0; /* Hide initially */
+    overflow: hidden; /* Hide overflow for smooth transition */
+    transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+    /* display: inline-block;  */
+}
+
+
+.first-card:hover span,
+.second-card:hover span,
+.third-card:hover span,
+.fourth-card:hover span {
+    max-height: 40px; /* Expand height (adjust as needed) */
+    opacity: 1; /* Fade in */
+    transition: max-height 0.3s ease, opacity 0.3s ease; 
+    margin-bottom: 22px;
+    display: inline-block;
+    
+}
+
+.first-card,
+.second-card,
+.third-card,
+.fourth-card {
+    transition: transform 0.3s ease; /* Apply transition for move-up effect */
+}
+
+.first-card:hover,
+.second-card:hover,
+.third-card:hover,
+.fourth-card:hover {
+    transform: translateY(-10px); /* Move the card up on hover */
+}
+
+
+
 .hexnode-img {
     height: 120px;
     width: 120px;
@@ -8,7 +49,10 @@
 .third-card,
 .fourth-card {
     text-align: left;
-    padding: 30px 30px;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
     border: 1px solid #D7D7D7;
     border-radius: 8px;
 }
@@ -69,7 +113,14 @@
         padding-bottom: 20px;
     }
 }
-
+@media only screen and (max-width: 600px){
+    .first-card span,
+    .second-card span,
+    .third-card span,
+    .fourth-card span{
+        font-size: 15px;
+    }
+}
 @media only screen and (min-width: 992px){
     .reason-title{
         font-size: 40px;
@@ -115,9 +166,7 @@
     .hexnode-img {
         display: block;
     }
-    /* .unified {
-        padding-left: 2rem;
-    } */
+    
     .unified h3{
         text-align: left;
     }

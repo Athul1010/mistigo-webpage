@@ -1,3 +1,4 @@
+
 .devices {
   padding: 80px 0px;
   background-color: #F7F7F7;
@@ -37,7 +38,6 @@
   text-align: left;
   font-size: 24px;
   font-weight: 700;
-  /* padding: 23px 20px; */
 }
 
 .platform-title.no-border {
