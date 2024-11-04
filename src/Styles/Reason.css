@@ -4,9 +4,12 @@
 .fourth-card span {
     color: #DD0735;
     font-size: 20px;
-    opacity: 0; /* Hide initially */
-    overflow: hidden; /* Hide overflow for smooth transition */
-    transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+    opacity: 0;
+    /* Hide initially */
+    overflow: hidden;
+    /* Hide overflow for smooth transition */
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    /* Smooth transition */
     /* display: inline-block;  */
 }
 
@@ -15,26 +18,30 @@
 .second-card:hover span,
 .third-card:hover span,
 .fourth-card:hover span {
-    max-height: 40px; /* Expand height (adjust as needed) */
-    opacity: 1; /* Fade in */
-    transition: max-height 0.3s ease, opacity 0.3s ease; 
+    max-height: 40px;
+    /* Expand height (adjust as needed) */
+    opacity: 1;
+    /* Fade in */
+    transition: max-height 0.3s ease, opacity 0.3s ease;
     margin-bottom: 22px;
     display: inline-block;
-    
+
 }
 
 .first-card,
 .second-card,
 .third-card,
 .fourth-card {
-    transition: transform 0.3s ease; /* Apply transition for move-up effect */
+    transition: transform 0.3s ease;
+    /* Apply transition for move-up effect */
 }
 
 .first-card:hover,
 .second-card:hover,
 .third-card:hover,
 .fourth-card:hover {
-    transform: translateY(-10px); /* Move the card up on hover */
+    transform: translateY(-10px);
+    /* Move the card up on hover */
 }
 
 
@@ -56,27 +63,31 @@
     border: 1px solid #D7D7D7;
     border-radius: 8px;
 }
+
 .first-card h3,
 .second-card h3,
 .third-card h3,
-.fourth-card h3{
+.fourth-card h3 {
     font-weight: 700;
     font-size: 24px;
 }
+
 .first-card p,
 .second-card p,
 .third-card p,
-.fourth-card p{
-    
+.fourth-card p {
+
     font-size: 18px;
 }
-.way-set{
+
+.way-set {
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 10px;
 }
-.unified{
+
+.unified {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,15 +95,16 @@
 }
 
 .way-icons {
-   
+
     background-color: #F8FAFF;
     color: #3371ED;
 }
-.reason-title{
+
+.reason-title {
     font-weight: 700;
 }
 
-.reason-secton{
+.reason-secton {
     padding: 80px 0px;
     background-color: #F7F7F7;
 }
@@ -104,32 +116,49 @@
 }
 
 @media only screen and (max-width: 992px) {
+
     .first-card,
-    .third-card{
+    .third-card {
         margin-bottom: 3rem;
     }
-    .reason-title{
+
+    .reason-title {
         font-size: 30px;
         padding-bottom: 20px;
     }
 }
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 600px) {
+
     .first-card span,
     .second-card span,
     .third-card span,
-    .fourth-card span{
+    .fourth-card span {
         font-size: 15px;
     }
+
+    .first-card h3,
+    .second-card h3,
+    .third-card h3,
+    .fourth-card h3 {
+        font-size: 18px;
+    }
+    .first-card p, .second-card p, .third-card p, .fourth-card p {
+        font-size: 16px;
+    }
+
 }
-@media only screen and (min-width: 992px){
-    .reason-title{
+
+@media only screen and (min-width: 992px) {
+    .reason-title {
         font-size: 40px;
         padding-bottom: 20px;
     }
 }
+
 @media only screen and (min-width: 1280px) {
     .first-card {
-       width: 70%;
+        width: 70%;
     }
 
     .second-card {
@@ -137,11 +166,11 @@
     }
 
     .third-card {
-       width: 70%;
+        width: 70%;
     }
 
     .fourth-card {
-       width: 70%;
+        width: 70%;
     }
 
     .card-section-one {
@@ -163,27 +192,31 @@
         display: flex;
         justify-content: right;
     }
+
     .hexnode-img {
         display: block;
     }
-    
-    .unified h3{
+
+    .unified h3 {
         text-align: left;
     }
-    .unified img{
+
+    .unified img {
         margin-bottom: 13px;
     }
 }
-@media only screen and (min-width: 1400px){
+
+@media only screen and (min-width: 1400px) {
     .unified {
         padding-left: 0rem;
         white-space: nowrap;
     }
-    .automation h3{
+
+    .automation h3 {
         white-space: nowrap;
     }
-    .unified img{
+
+    .unified img {
         margin-bottom: 0px;
     }
 }
-
