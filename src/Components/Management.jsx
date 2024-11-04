@@ -15,43 +15,43 @@ const Management = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
                     <img src={zeroTtouch} alt="Zero-touch Enrollment" className="img-fluid mb-3" />
                     <div className='manage-content'>
-                        <h2 className='text-start fw-bold'>Zero-touch Enrollment</h2>
-                        <p className='text-start'>Onboard endpoints and users with minimal user intervention. Provision devices and set up configurations well before the user gets their hands on.</p>
+                        <h2 className='fw-bold'>Zero-touch Enrollment</h2>
+                        <p>Onboard endpoints and users with minimal user intervention. Provision devices and set up configurations well before the user gets their hands on.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
                     <img src={automation} alt="Automation" className="img-fluid mb-3" />
                     <div className='manage-content'>
-                        <h2 className='text-start fw-bold'>Automation</h2>
-                        <p className='text-start'>Automate endpoint compliance with dynamic grouping and breeze through day-to-day IT tasks with scripting capabilities. Hexnode also allows the creation of automated reports.</p>
+                        <h2 className='fw-bold'>Automation</h2>
+                        <p>Automate endpoint compliance with dynamic grouping and breeze through day-to-day IT tasks with scripting capabilities. Hexnode also allows the creation of automated reports.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
                     <img src={remotAccess} alt="Remote Access Management" className="img-fluid mb-3" />
                     <div className='manage-content'>
-                        <h2 className='text-start fw-bold'>Remote Access Management</h2>
-                        <p className='text-start'>Hexnode UEM enables the enterprise to manage every single device in the corporate ecosystem for optimal and secure operation.</p>
+                        <h2 className='fw-bold'>Remote Access Management</h2>
+                        <p className=''>Hexnode UEM enables the enterprise to manage every single device in the corporate ecosystem for optimal and secure operation.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
                     <img src={endpoint} alt="Endpoint Security and Compliance" className="img-fluid mb-3" />
                     <div className='manage-content'>
-                        <h2 className='text-start fw-bold'>Endpoint Security and Compliance</h2>
-                        <p className='text-start'>Hexnode helps you maintain compliance with international regulatory bodies and set up custom rules for compliance within your business for security purposes.</p>
+                        <h2 className='fw-bold'>Endpoint Security and Compliance</h2>
+                        <p>Hexnode helps you maintain compliance with international regulatory bodies and set up custom rules for compliance within your business for security purposes.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
                     <img src={integrations} alt="Integrations" className="img-fluid mb-3" />
                     <div className='manage-content'>
-                        <h2 className='text-start fw-bold'>Integrations</h2>
-                        <p className='text-start'>Hexnode's various integrations make it easy to fit into your current endpoint ecosystem. These integrations include Azure AD, Okta, Android Enterprise, Apple School and Business Manager, and many more enterprise and technology integrations.</p>
+                        <h2 className='fw-bold'>Integrations</h2>
+                        <p>Hexnode's various integrations make it easy to fit into your current endpoint ecosystem. These integrations include Azure AD, Okta, Android Enterprise, Apple School and Business Manager, and many more enterprise and technology integrations.</p>
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
                     <img src={appManagement} alt="App Management" className="img-fluid mb-3" />
                     <div className='manage-content'>
-                        <h2 className='text-start fw-bold'>App Management</h2>
-                        <p className='text-start'>Set up a bespoke app store, enable mandatory apps, and ensure endpoints come equipped with all the required applications, custom enterprise apps included.</p>
+                        <h2 className='fw-bold'>App Management</h2>
+                        <p>Set up a bespoke app store, enable mandatory apps, and ensure endpoints come equipped with all the required applications, custom enterprise apps included.</p>
                     </div>
                 </div>
             </div>

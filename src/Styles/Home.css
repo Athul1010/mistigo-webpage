@@ -31,7 +31,9 @@
     height: 50px;
     margin-top: 2px;
 }
-
+.header-search button:hover{
+    background-color: #bb022a;
+}
 .header-search input {
     color: inherit; 
     line-height: 21px; 
@@ -115,15 +117,16 @@
         width: 100%;
     }
     .password-policy {
-        padding: 4px 20px 4px 29px;
-        top: 53%;
+        padding: 5px 10px 5px 30px;
+        top: 11%;
         left: 7%;
+       
     }
 
     .tvos-active {
-        padding: 4px 20px 4px 29px;
-        top: 61%;
-        right: 4%;
+        padding: 4px 9px 4px 29px;
+        top: 38%;
+        right: 1%;
     }
 
     .device-enrolled {
@@ -138,16 +141,15 @@
 }
 
 @media only screen and (max-width: 480px) {
+    
     .password-policy {
-        padding: 5px 10px 5px 25px;
-        top: 62%;
-        left: 7%;
         font-size: 11px;
     }
 
     .tvos-active {
+        
         font-size: 11px;
-        top: 71%;
+        
     }
 
     .device-enrolled {

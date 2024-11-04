@@ -11,6 +11,7 @@
     }
     .manage-content{
         padding: 0px 18px;
+        text-align: center;
     }
 }
 @media only screen and (min-width: 600px){
@@ -19,6 +20,14 @@
     }
     .manage-content h2{
         font-size: 24px;
+    }
+    .manage-content{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px){
+    .manage-content{
+        text-align: left;
     }
 }
 @media only screen and (min-width: 1400px){

@@ -1,8 +1,19 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 999; 
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
     right: 0; 
-    width: 100vw;
     height: 100vh; 
     background-color: #ffffff;
     color: #020A19;
@@ -83,4 +94,19 @@
 
 .days:hover {
     background-color: #bb022a; 
+}
+
+@media only screen and (max-width: 600px){
+    .sidebar{
+        width: 100vw;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .sidebar{
+        width: 50vw;
+    }
+    .no-scroll {
+        overflow: hidden;
+    }
 }
