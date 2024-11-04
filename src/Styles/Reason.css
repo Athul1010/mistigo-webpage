@@ -137,6 +137,17 @@
         font-size: 15px;
     }
 
+    .unified,
+    .way-set {
+        justify-content: left;
+    }
+
+    .unified img,
+    .way-set img {
+        height: 25px;
+    }
+}
+@media only screen and (max-width: 480px){
     .first-card h3,
     .second-card h3,
     .third-card h3,
@@ -150,16 +161,6 @@
     .fourth-card p {
 
         font-size: 16px;
-    }
-
-    .unified,
-    .way-set {
-        justify-content: left;
-    }
-
-    .unified img,
-    .way-set img {
-        height: 25px;
     }
 }
 
