@@ -2,6 +2,8 @@ Mitsogo Website Project:-
 
 This project is a fully responsive website developed using React.js, JavaScript, CSS, and Bootstrap. The website features a responsive navbar, header section, features section, slider, automatic slider, customer opinions, and more. Additionally, I have implemented animations on scroll (AOS) and a "Scroll to Top" button for enhanced user experience.
 
+live Demo Link: https://hexnode-website-athulrajt.netlify.app/
+
 Technologies Used:-
 
 Frontend: React.js, JavaScript, CSS, Bootstrap
